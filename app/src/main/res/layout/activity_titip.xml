@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    android:orientation="vertical"
+    tools:context=".titip">
+
+    <include layout="@layout/header"/>
+
+    <com.stephen.petstop.DashLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btn_daftar2"
+            style="@style/DashboardButton"
+            android:drawableTop="@drawable/daftar"
+            android:text="Daftar"/>
+        <Button
+            android:id="@+id/btn_list"
+            style="@style/DashboardButton"
+            android:drawableTop="@drawable/list"
+            android:text="List"/>
+    </com.stephen.petstop.DashLayout>
+
+</LinearLayout>

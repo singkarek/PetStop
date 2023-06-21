@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.stephen.petstop.DashLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btnDaftar"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/titip"
+        android:text="Titip" />
+
+    <Button
+        android:id="@+id/btnHelp"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/help"
+        android:text="Help" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/about"
+        android:text="About" />
+
+</com.stephen.petstop.DashLayout>

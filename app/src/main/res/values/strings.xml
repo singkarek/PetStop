@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PetStop</string>
+    <string name="splash"><b>PetStop</b></string>
+    <string name="subsplash">your pet hotel solution</string>
+    <string name="mohon"><i>* Mohon klik tombol total sebelum daftar</i></string>
+    <string-array name="jenis_hewan">
+        <item>Anjing</item>
+        <item>Kucing</item>
+    </string-array>
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tek1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About this App"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:background="@drawable/icon">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tek2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="\n PetStop \n version 1.0 \n July 2022 \n"
+            android:textColor="#009900"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="171111060 Fierda Stephen \nPhone number? not yet! here's my:"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tek3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ig"
+            android:gravity="center_horizontal"
+            android:text="singkarek"
+            android:textColor="#8A3AB9"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tek4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/fb"
+            android:gravity="center_horizontal"
+            android:text="Fierda Stephen"
+            android:textColor="#4267B2"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tek5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/linkedin"
+            android:gravity="center_horizontal"
+            android:text="Fierda Stephen \n"
+            android:textColor="#0072B1"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tek6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/email"
+            android:gravity="center_horizontal"
+            android:text="fierdastephen14@gmail.com \n"
+            android:textColor="#990000"
+            android:textSize="12dp" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo_stiki" />
+
+        <TextView
+            android:id="@+id/tek7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Supported by: \n Sekolah Tinggi Informatika dan Komputer Indonesia \nMalang"
+            android:textColor="#000000"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/bt_ok"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="OK" />
+    </LinearLayout>
+</ScrollView>

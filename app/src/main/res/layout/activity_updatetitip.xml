@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical"
+    tools:context=".updatetitip">
+    <include layout="@layout/header"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Ubah Data Titip"
+        android:textColor="@color/black"
+        android:textSize="17sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID :"
+        android:textColor="@color/DarkBlue"/>
+    <TextView
+        android:id="@+id/tv_id"
+        android:textColor="@color/DarkRed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/DarkBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jenis Hewan :"/>
+    <Spinner
+        android:id="@+id/jenis_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/jenis_hewan"/>
+    <TextView
+        android:textColor="@color/DarkBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama :"/>
+    <EditText
+        android:id="@+id/et_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"/>
+    <TextView
+        android:textColor="@color/DarkBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perlakuan Khusus :"/>
+    <EditText
+        android:id="@+id/et_perlakuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="20"/>
+    <TextView
+        android:textColor="@color/DarkBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Durasi Titip (Hari) :"/>
+    <EditText
+        android:id="@+id/et_durasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:inputType="number" />
+    <Button
+        android:id="@+id/btn_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total"/>
+    <TextView
+        android:textColor="@color/DarkBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Biaya :"/>
+    <TextView
+        android:textColor="@color/DarkRed"
+        android:id="@+id/tv_biaya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/DarkRed"
+        android:id="@+id/tv_detailbiaya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/orange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mohon"/>
+    <Button
+        android:id="@+id/btnsimpan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Simpan"/>
+    <Button
+        android:id="@+id/btnkembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Kembali"/>
+</LinearLayout>

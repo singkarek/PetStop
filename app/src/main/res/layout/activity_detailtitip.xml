@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    android:orientation="vertical"
+    tools:context=".detailtitip">
+    <include layout="@layout/header"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detail Penitipan Hewan"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:textColor="@color/DarkBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID :"/>
+    <TextView
+        android:textColor="@color/DarkRed"
+        android:id="@+id/id_hewan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@color/DarkBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jenis Hewan :"/>
+    <TextView
+        android:textColor="@color/DarkRed"
+        android:id="@+id/jenis_hewan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/DarkBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Hewan :"/>
+    <TextView
+        android:textColor="@color/DarkRed"
+        android:id="@+id/nama_hewan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@color/DarkBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Durasi Penitipan (Hari) :"/>
+    <TextView
+        android:textColor="@color/DarkRed"
+        android:id="@+id/durasi_penitipan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@color/DarkBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Perlakuan Khusus :"/>
+    <TextView
+        android:textColor="@color/DarkRed"
+        android:id="@+id/perlakuan_khusus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@color/DarkBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Biaya :"/>
+    <TextView
+        android:textColor="@color/DarkRed"
+        android:id="@+id/biaya_penitipan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_kembali"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali"/>
+</LinearLayout>
